@@ -54,7 +54,7 @@ function orderItem(itemID){
 				alert("Failure: check that your JavaOrders API App is running and your user-provided service has the correct URL.");
 			}
 			else{
-				alert("Order Submitted! Check your Java Orders API to see your orders: \n" + result.ordersURL);
+				alert("Order is Submitted! Check your Java Orders API to see your orders: \n" + result.ordersURL);
 			}
 		},
 		error: function(XMLHttpRequest, textStatus, errorThrown) { 
